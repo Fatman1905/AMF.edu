@@ -1,44 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Đóng góp ý kiến cho thư viện của nhà trường</title>
+    <title>Bai7-NV2</title>
+    <meta charset="utf-8">
 </head>
 <body>
 
-<h1>Đóng góp ý kiến cho thư viện của nhà trường</h1>
+    <h3>Đóng góp ý kiến cho thư viện của nhà trường</h3>
 
-<form action="#" method="post">
-    <h2>1. Thông tin về người góp ý</h2>
+    <form action="Bai7-NV3.html"> <b>1. Thông tin về người góp ý</b><br>
+        <label>Họ và tên: <input type="text" name="txtTen"></label><br>
+        <label>Địa chỉ email: <input type="text" name="txtEmail"></label><br>
+        <br>
 
-    <label for="fullname">Họ và tên:</label>
-    <input type="text" id="fullname" name="fullname">
-    <br><br>
+        <b>2. Đóng góp ý kiến</b><br>
+        <label>Ý kiến đóng góp: 
+            <br>
+            <textarea name="txtComment" rows="6" cols="40"></textarea>
+        </label>
+        <br><br>
 
-    <label for="email">Địa chỉ email:</label>
-    <input type="email" id="email" name="email">
-    <br><br>
-</form>
+        Thể loại cần bổ sung thêm sách:<br>
+        <input type="checkbox" name="chkTruyenNgan"> Truyện ngắn <br>
+        <input type="checkbox" name="chkKiNang"> Kĩ năng sống <br>
+        <input type="checkbox" name="chkCNTT"> Công nghệ thông tin <br>
+        <input type="checkbox" name="chkTruyenTranh"> Truyện tranh <br>
+        <input type="checkbox" name="chkLichSu"> Lịch sử <br>
+        <br>
 
-<form action="#" method="post">
-    <h2>2. Đóng góp ý kiến</h2>
+        <input type="submit" name="cmd" value="Góp ý">
 
-    <label for="contribution">Ý kiến đóng góp:</label><br>
-    <textarea id="contribution" name="contribution" rows="10" cols="50"></textarea>
-    <br><br>
-
-    <!-- A submit button would typically go here -->
-
-    <p>Thể loại cần bổ sung thêm sách</p>
-</form>
-
-<input type="checkbox" name="chkTruyenNgan"> Truyện ngắn <br>
-<input type="checkbox" name="chkKiNang"> Kĩ năng sống <br>
-<input type="checkbox" name="chkCNTT"> Công nghệ thông tin <br>
-<input type="checkbox" name="chkTruyenTranh"> Truyện tranh <br>
-<input type="checkbox" name="chkLichSu"> Lịch sử <br>
-
-<input type="submit" name="cmd" value="Góp ý">
+    </form>
 
 </body>
 </html>
